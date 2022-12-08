@@ -68,6 +68,7 @@ tr:nth-child(even) {
     background-color: #33ff4f;
 }
 
+
 @media screen and (min-width: 481px) and (max-width: 768px) {
     table {
         width: 80vw;

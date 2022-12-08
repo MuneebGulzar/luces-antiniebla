@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://images.pexels.com/photos/5052/road-fog-bend-foggy.jpg?cs=srgb&dl=pexels-jaymantri-5052.jpg&fm=jpg');
+    background-repeat: no-repeat;
+}
+
+table {
+    border: 1px solid black;
+    width: 80vw;
+    height: 90vh;
+    text-align: center;
+    border-collapse: collapse;
+    /* box-shadow: 0.5rem .5rem #575857; */
+}
+
+.row-title {
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+th {
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+td {
+    font-family: 'Poppins';
+    font-weight: 400;
+    padding: 0.5rem;
+    border: 1px solid black;
+    border-right: transparent;
+    border-left: transparent;
+    border-top: transparent;
+}
+
+tr:hover {
+    cursor: pointer;
+}
+
+tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+.banned {
+    background-color: #ff333c;
+}
+
+.mandatory {
+    background-color: #3346ff;
+}
+
+.optional {
+    background-color: #33ff4f;
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    table {
+        width: 80vw;
+        height: 80vh;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+    table {
+        width: 70vw;
+        height: 60vh;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    table {
+        width: 50vw;
+        height: 50vh;
+    }
+}

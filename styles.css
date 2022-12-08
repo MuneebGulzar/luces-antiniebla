@@ -31,7 +31,7 @@ table {
     /* box-shadow: 0.5rem .5rem #575857; */
 }
 
-.row-title {
+.row-title, caption {
     font-family: 'Poppins';
     font-weight: 500;
 }

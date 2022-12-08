@@ -84,7 +84,7 @@ tr:nth-child(even) {
 
 @media screen and (min-width: 1280px) {
     table {
-        width: 50vw;
+        width: 60vw;
         height: 50vh;
     }
 }

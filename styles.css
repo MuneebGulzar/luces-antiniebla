@@ -42,6 +42,7 @@ th {
     padding: 1rem;
     font-family: 'Poppins';
     font-weight: 600;
+    text-transform: uppercase;
 }
 
 td {
